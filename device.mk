@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/hlteusc/overlay
 
 LOCAL_PATH := device/samsung/hlteusc
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := $(LOCAL_PATH)/kernel.stock
+	LOCAL_KERNEL := $(LOCAL_PATH)/kernAl
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
